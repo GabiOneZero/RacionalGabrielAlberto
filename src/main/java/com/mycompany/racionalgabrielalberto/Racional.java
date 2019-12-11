@@ -25,9 +25,25 @@ public class Racional {
         }else{
             this.denominador = denominador;
             
-        }
-        
+        }        
     }
+    
+    public void suma(Racional racional){
+        
+        if (this.denominador == racional.denominador){
+            
+            this.numerador += racional.numerador;
+            
+        }else{
+            
+            this.numerador = (this.numerador * racional.denominador) 
+            + (this.denominador * racional.numerador);
+            
+            this.denominador *= racional.denominador;
+        }
+       
+            
+        }
 
     public int getNumerador() {
         return numerador;
