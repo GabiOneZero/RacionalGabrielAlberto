@@ -55,6 +55,13 @@ public class Racional {
     public void imprimirConsola(){
         System.out.println("Número racional" + numerador + "/" + denominador);
     }
+
+    @Override
+    public String toString() {
+        return  numerador + "/" + denominador;
+    }
+    
+    
     
     
     
