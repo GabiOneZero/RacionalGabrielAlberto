@@ -60,12 +60,18 @@ public class Racional {
 
     }
     
-    public void producto (Racional racional){
+    public void producto(Racional racional){
         
         this.numerador *= racional.numerador;
         this.denominador *= racional.denominador;
     }
 
+    public static Racional division(Racional racional1, Racional racional2){
+        
+        return new Racional(racional1.numerador *= racional2.denominador, racional1.denominador *= racional2.numerador);
+    }
+    
+    
     public int getNumerador() {
         return numerador;
     }
