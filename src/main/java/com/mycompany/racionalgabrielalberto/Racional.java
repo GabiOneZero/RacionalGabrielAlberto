@@ -36,6 +36,25 @@ public class Racional {
     public int getDenominador() {
         return denominador;
     }
+
+    public void setNumerador(int numerador) {
+        this.numerador = numerador;
+    }
+
+    public void setDenominador(int denominador) {
+        if (denominador == 0){
+            this.denominador = 1;
+            System.out.println("El denominador no es valido, se asigna el valor 1");
+            
+        }else{
+            this.denominador = denominador;
+            
+        }
+    }
+    
+    public void imprimirConsola(){
+        System.out.println("Número racional" + numerador + "/" + denominador);
+    }
     
     
     
