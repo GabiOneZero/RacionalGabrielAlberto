@@ -16,18 +16,23 @@ public class AppRacional {
      */
     public static void main(String[] args) {
         
+        
+        //Creamos números para hacer las pruebas
         Racional racionalZ = new Racional(4,5);
         
         Racional racionalK = new Racional(3,4);
         
         Racional racionalAleatorio = Racional.aleatorio();
         
+        //Mostramos los números creados
         System.out.println("RacionalZ = " +racionalZ);
         System.out.println("RacionalK =" +racionalK);
         System.out.println("RacionalAleatorio = " +racionalAleatorio);
         
+        //Comprobamos la igualdad entre los números creados
         System.out.println(Racional.igualdad(racionalZ, racionalK));
         
+        //Probamos la suma
         racionalZ.suma(racionalK);
         
         System.out.println("El resultado de la suma es = "+racionalZ);
