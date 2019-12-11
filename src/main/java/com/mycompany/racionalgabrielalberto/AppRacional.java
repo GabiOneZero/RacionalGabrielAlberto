@@ -20,7 +20,11 @@ public class AppRacional {
         
         Racional racionalK = new Racional(3,4);
         
-        Racional.aleatorio();
+        Racional racionalAleatorio = Racional.aleatorio();
+        
+        System.out.println("RacionalZ = " +racionalZ);
+        System.out.println("RacionalK =" +racionalK);
+        System.out.println("RacionalAleatorio = " +racionalAleatorio);
     }
     
 }
