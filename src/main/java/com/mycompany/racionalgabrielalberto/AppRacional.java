@@ -27,6 +27,10 @@ public class AppRacional {
         System.out.println("RacionalAleatorio = " +racionalAleatorio);
         
         System.out.println(Racional.igualdad(racionalZ, racionalK));
+        
+        racionalZ.suma(racionalK);
+        
+        System.out.println("El resultado de la suma es = "+racionalZ);
     }
     
 }
