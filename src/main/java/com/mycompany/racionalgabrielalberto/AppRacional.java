@@ -25,6 +25,8 @@ public class AppRacional {
         System.out.println("RacionalZ = " +racionalZ);
         System.out.println("RacionalK =" +racionalK);
         System.out.println("RacionalAleatorio = " +racionalAleatorio);
+        
+        System.out.println(Racional.igualdad(racionalZ, racionalK));
     }
     
 }
