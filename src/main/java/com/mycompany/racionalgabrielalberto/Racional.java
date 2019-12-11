@@ -1,5 +1,7 @@
 package com.mycompany.racionalgabrielalberto;
 
+import java.util.Random;
+
 /**
  *
  * @author gabriel
@@ -78,6 +80,15 @@ public class Racional {
                 == racional1.denominador * racional2.numerador;
         
         return resultado;
+    }
+    
+    public static Racional aleatorio(){
+        Random varRandom = new Random();
+        
+        int numerador = varRandom.nextInt();
+        int denominador = varRandom.nextInt();
+        
+        return new Racional();
     }
     
     public int getNumerador() {
