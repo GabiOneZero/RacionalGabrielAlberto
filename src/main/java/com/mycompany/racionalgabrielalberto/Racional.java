@@ -26,7 +26,17 @@ public class Racional {
             this.denominador = denominador;
             
         }
+        
     }
+
+    public int getNumerador() {
+        return numerador;
+    }
+
+    public int getDenominador() {
+        return denominador;
+    }
+    
     
     
     
