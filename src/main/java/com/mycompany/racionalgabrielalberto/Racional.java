@@ -56,7 +56,14 @@ public class Racional {
 
             this.denominador *= racional.denominador;
         }
+        
 
+    }
+    
+    public void producto (Racional racional){
+        
+        this.numerador *= racional.numerador;
+        this.denominador *= racional.denominador;
     }
 
     public int getNumerador() {
